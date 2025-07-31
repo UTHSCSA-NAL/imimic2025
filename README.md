@@ -7,4 +7,10 @@ These maps will be generated as "maps_left.npy" for the left hemisphere, and "ma
 and be similar to "best_maps_left.npy" and "best_maps.right.npy"
 
 
+These maps correspond to the cortical mesh stored in the files:
+> Conte69.L.midthickness.32k_fs_LR.surf.gii (left hemisphere) <br>
+> Conte69.R.midthickness.32k_fs_LR.surf.gii (right hemisphere)
 
+that can be opened using the nibabel Python library.
+
+The geodesic distances are stored in the "data_XXX_godesic_distances.npy" files, and where calculated for the 22 cortical regions described in the parcellation22.csv file. The cortical parcellation are provided in the files "parcellation22_XXX.txt" (where label 0 correspond to the corpus callosum, a region ignored during the training/geneation of cortical maps).
