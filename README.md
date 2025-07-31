@@ -14,3 +14,5 @@ These maps correspond to the cortical mesh stored in the files:
 that can be opened using the nibabel Python library.
 
 The geodesic distances are stored in the "data_XXX_godesic_distances.npy" files, and where calculated for the 22 cortical regions described in the parcellation22.csv file. The cortical parcellation are provided in the files "parcellation22_XXX.txt" (where label 0 correspond to the corpus callosum, a region ignored during the training/geneation of cortical maps).
+
+Similarly, the ADNI tau quantile values for the 5 age groups are stored in the files "data_XXX_quantiles.npy" and were calculated as explained in the publication.
