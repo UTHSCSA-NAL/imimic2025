@@ -3,6 +3,6 @@
 
 python implementation.py -l 5 -d 32 -a 0.001
 # 5 layers
-# 32 cortical ROIs (for each brain hemisphere)
+# 32 cortical maps (for each brain hemisphere)
 # penalty 0.001
 
