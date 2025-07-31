@@ -4,7 +4,7 @@ Software associated with the publication:
 Run the Bash script training.sh 
 to generates cortical maps according to the best results reported in the publication.
 These maps will be generated as "maps_left.npy" for the left hemisphere, and "maps_right.npy" for the right hemisphere
-and be similar to "best_maps_left.npy" and "best_maps.right.npy"
+and should be similar to "best_maps_left.npy" and "best_maps.right.npy" (edit training.sh to produce different sets of cortical maps)
 
 
 These maps correspond to the cortical mesh stored in the files:
